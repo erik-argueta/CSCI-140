@@ -55,7 +55,7 @@ float NumberOperation::get_quot() const
 
 void display(NumberOperation oper)
 {
-	cout << "Sum is " << oper.get_sum() << endl;
+	cout << endl << "Sum is " << oper.get_sum() << endl;
 	cout << "Difference is " << oper.get_diff() << endl;
 	cout << "Product is " << oper.get_prod() << endl;
 	cout << "Quotient is " << oper.get_quot() << endl;
