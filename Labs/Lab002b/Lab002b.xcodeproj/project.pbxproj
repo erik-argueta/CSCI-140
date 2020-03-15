@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E68C0A5240BBA1300E52120 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E68C0A4240BBA1300E52120 /* main.cpp */; };
-		5E68C0AE240BBCA400E52120 /* cashregister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E68C0AD240BBCA400E52120 /* cashregister.cpp */; };
+		5E8E261D241E7FCE0052ED9E /* AccountTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E261C241E7FCE0052ED9E /* AccountTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5E68C09F240BBA1300E52120 /* CopyFiles */ = {
+		5E8E2617241E7FCE0052ED9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E68C0A1240BBA1300E52120 /* CashRegister2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CashRegister2; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E68C0A4240BBA1300E52120 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5E68C0AC240BBC1000E52120 /* cashregister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cashregister.h; sourceTree = "<group>"; };
-		5E68C0AD240BBCA400E52120 /* cashregister.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cashregister.cpp; sourceTree = "<group>"; };
+		5E8E2619241E7FCE0052ED9E /* Lab002b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab002b; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8E261C241E7FCE0052ED9E /* AccountTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AccountTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E68C09E240BBA1300E52120 /* Frameworks */ = {
+		5E8E2616241E7FCE0052ED9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E68C098240BBA1300E52120 = {
+		5E8E2610241E7FCD0052ED9E = {
 			isa = PBXGroup;
 			children = (
-				5E68C0A3240BBA1300E52120 /* CashRegister2 */,
-				5E68C0A2240BBA1300E52120 /* Products */,
+				5E8E261B241E7FCE0052ED9E /* Lab002b */,
+				5E8E261A241E7FCE0052ED9E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5E68C0A2240BBA1300E52120 /* Products */ = {
+		5E8E261A241E7FCE0052ED9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E68C0A1240BBA1300E52120 /* CashRegister2 */,
+				5E8E2619241E7FCE0052ED9E /* Lab002b */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E68C0A3240BBA1300E52120 /* CashRegister2 */ = {
+		5E8E261B241E7FCE0052ED9E /* Lab002b */ = {
 			isa = PBXGroup;
 			children = (
-				5E68C0A4240BBA1300E52120 /* main.cpp */,
-				5E68C0AC240BBC1000E52120 /* cashregister.h */,
-				5E68C0AD240BBCA400E52120 /* cashregister.cpp */,
+				5E8E261C241E7FCE0052ED9E /* AccountTest.cpp */,
 			);
-			path = CashRegister2;
+			path = Lab002b;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E68C0A0240BBA1300E52120 /* CashRegister2 */ = {
+		5E8E2618241E7FCE0052ED9E /* Lab002b */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E68C0A8240BBA1300E52120 /* Build configuration list for PBXNativeTarget "CashRegister2" */;
+			buildConfigurationList = 5E8E2620241E7FCE0052ED9E /* Build configuration list for PBXNativeTarget "Lab002b" */;
 			buildPhases = (
-				5E68C09D240BBA1300E52120 /* Sources */,
-				5E68C09E240BBA1300E52120 /* Frameworks */,
-				5E68C09F240BBA1300E52120 /* CopyFiles */,
+				5E8E2615241E7FCE0052ED9E /* Sources */,
+				5E8E2616241E7FCE0052ED9E /* Frameworks */,
+				5E8E2617241E7FCE0052ED9E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CashRegister2;
-			productName = CashRegister2;
-			productReference = 5E68C0A1240BBA1300E52120 /* CashRegister2 */;
+			name = Lab002b;
+			productName = Lab002b;
+			productReference = 5E8E2619241E7FCE0052ED9E /* Lab002b */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5E68C099240BBA1300E52120 /* Project object */ = {
+		5E8E2611241E7FCD0052ED9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Erik Argueta";
 				TargetAttributes = {
-					5E68C0A0240BBA1300E52120 = {
+					5E8E2618241E7FCE0052ED9E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5E68C09C240BBA1300E52120 /* Build configuration list for PBXProject "CashRegister2" */;
+			buildConfigurationList = 5E8E2614241E7FCD0052ED9E /* Build configuration list for PBXProject "Lab002b" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5E68C098240BBA1300E52120;
-			productRefGroup = 5E68C0A2240BBA1300E52120 /* Products */;
+			mainGroup = 5E8E2610241E7FCD0052ED9E;
+			productRefGroup = 5E8E261A241E7FCE0052ED9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E68C0A0240BBA1300E52120 /* CashRegister2 */,
+				5E8E2618241E7FCE0052ED9E /* Lab002b */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E68C09D240BBA1300E52120 /* Sources */ = {
+		5E8E2615241E7FCE0052ED9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E68C0A5240BBA1300E52120 /* main.cpp in Sources */,
-				5E68C0AE240BBCA400E52120 /* cashregister.cpp in Sources */,
+				5E8E261D241E7FCE0052ED9E /* AccountTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5E68C0A6240BBA1300E52120 /* Debug */ = {
+		5E8E261E241E7FCE0052ED9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		5E68C0A7240BBA1300E52120 /* Release */ = {
+		5E8E261F241E7FCE0052ED9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		5E68C0A9240BBA1300E52120 /* Debug */ = {
+		5E8E2621241E7FCE0052ED9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		5E68C0AA240BBA1300E52120 /* Release */ = {
+		5E8E2622241E7FCE0052ED9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E68C09C240BBA1300E52120 /* Build configuration list for PBXProject "CashRegister2" */ = {
+		5E8E2614241E7FCD0052ED9E /* Build configuration list for PBXProject "Lab002b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E68C0A6240BBA1300E52120 /* Debug */,
-				5E68C0A7240BBA1300E52120 /* Release */,
+				5E8E261E241E7FCE0052ED9E /* Debug */,
+				5E8E261F241E7FCE0052ED9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E68C0A8240BBA1300E52120 /* Build configuration list for PBXNativeTarget "CashRegister2" */ = {
+		5E8E2620241E7FCE0052ED9E /* Build configuration list for PBXNativeTarget "Lab002b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E68C0A9240BBA1300E52120 /* Debug */,
-				5E68C0AA240BBA1300E52120 /* Release */,
+				5E8E2621241E7FCE0052ED9E /* Debug */,
+				5E8E2622241E7FCE0052ED9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5E68C099240BBA1300E52120 /* Project object */;
+	rootObject = 5E8E2611241E7FCD0052ED9E /* Project object */;
 }
