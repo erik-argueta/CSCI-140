@@ -27,7 +27,7 @@ void CashRegister::add_item(double price)
 
 double CashRegister::get_total() const
 {
-	return total_price;
+	return totacl_price;
 }
 
 int CashRegister::get_count() const
