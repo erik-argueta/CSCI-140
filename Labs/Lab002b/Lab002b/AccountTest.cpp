@@ -29,8 +29,8 @@ int main()
 
 	cout << "Enter account number (or -1 to quit): ";
 	cin >> account_number;
-
-	while (/*cin >> account_number &&*/ account_number != -1)
+	
+	while (account_number != -1)
 	{
 		Account acc(account_number);
 
@@ -61,9 +61,8 @@ int main()
 		cout << "Enter account number (or -1 to quit): ";
 		cin >> account_number;
 	}
-
-	cout << "Goodbye!" << endl;
 	
-	system("pause");
+	cout << "Goodbye!" << endl;
+	//system("pause");
 	return 0;
 }

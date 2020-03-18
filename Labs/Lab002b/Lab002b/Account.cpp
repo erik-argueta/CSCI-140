@@ -6,8 +6,6 @@
 
 using namespace std;
 
-
-
 Account::Account(int acccount_number)
 {
 	clear();

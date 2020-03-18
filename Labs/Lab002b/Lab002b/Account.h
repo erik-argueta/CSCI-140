@@ -2,7 +2,6 @@
 class Account
 {
 public:
-	// Account constructor with 0 parameter
 	Account(int account_number);
 
 	void clear();
