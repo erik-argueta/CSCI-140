@@ -1,17 +1,14 @@
-//
-//  Account.cpp
-//  Lab002b
-//
-//  Created by Erik Argueta on 3/16/20.
-//  Copyright © 2020 Erik Argueta. All rights reserved.
-//
-
 #include <iostream>
-#include <stdio.h>
+
+//#include <stdio.h>
+
 #include "Account.h"
+
 using namespace std;
 
-Account::Account()
+
+
+Account::Account(int acccount_number)
 {
 	clear();
 }
@@ -23,6 +20,8 @@ void Account::clear()
 	charges = 0;
 	credits = 0;
 }
+
+
 
 void Account::setBalance(float balance, float charges, float credits)
 {
