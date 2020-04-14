@@ -1,10 +1,4 @@
-//
-//  Account.h
-//  Understanding_Classes
-//
-//  Created by Erik Argueta on 4/13/20.
-//  Copyright © 2020 Erik Argueta. All rights reserved.
-//
+// Account.h
 
 #ifndef Account_h
 #define Account_h

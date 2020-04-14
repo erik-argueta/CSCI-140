@@ -1,3 +1,5 @@
+// main.cpp
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -15,10 +17,7 @@ int main()
 	for (int i = 0; i < 2; i++)
 	{
 		cout << "Please enter your name: ";
-		cin >> fname;
-		
-		cout << "Please enter your last name: ";
-		cin >> lname;
+		cin >> fname >> lname;
 		
 		cout << "Please enter your monthly salary: $";
 		cin >> monthx;
@@ -31,4 +30,5 @@ int main()
 		cout << endl;
 	}
 	
+	return 0;
 }

@@ -1,10 +1,4 @@
-//
-//  Account.cpp
-//  Understanding_Classes
-//
-//  Created by Erik Argueta on 4/13/20.
-//  Copyright © 2020 Erik Argueta. All rights reserved.
-//
+// Account.cpp
 
 #include "Account.h"
 
@@ -32,7 +26,8 @@ void Employee::set_last_name(string lname)
 
 void Employee::set_monthly_salary(float monthx)
 {
-	monthly_salary = monthx;
+	if (monthx < 0) { monthly_salary = 0; }
+	else { monthly_salary = monthx; }
 }
 
 void Employee::set_annual_total(float monthly_salary)
@@ -49,6 +44,8 @@ void Employee::set_final_annual(float raised_total)
 {
 	final_annual = (raised_total + monthly_salary) * 12;
 }
+
+
 
 //	G E T S
 
