@@ -19,8 +19,6 @@ void Account::clear()
 	credits = 0;
 }
 
-
-
 void Account::setBalance(float balance, float charges, float credits)
 {
 	final_balance = balance + charges - credits;

@@ -30,7 +30,7 @@ int main() {
 	unsigned counter = 1;
 	float number;
 	float largest1 = -1000;
-	float largest2 = 0;
+	float largest2 = -1000;
 	
 	//welcome();
 	
