@@ -1,3 +1,11 @@
+/*
+Program Description: Calculates a person's balance depending on their payment information.
+Program Author: Erik Argueta
+Variable Inputs: account_number, balances, charges, credits, credit_limit
+Process Flow: Adds balances, charges, and subtracts their credits.
+Variable Outputs: acc.getBalance()
+*/
+
 #include <iostream>
 #include "Account.h"
 using namespace std;
@@ -25,7 +33,7 @@ int main()
 	float credits;
 	float credit_limit;
 
-	welcome();
+	//welcome();
 
 	cout << "Enter account number (or -1 to quit): ";
 	cin >> account_number;

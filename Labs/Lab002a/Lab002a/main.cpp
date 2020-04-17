@@ -1,10 +1,11 @@
-//
-//  main.cpp
-//  Lab002a
-//
-//  Created by Erik Argueta on 3/15/20.
-//  Copyright © 2020 Erik Argueta. All rights reserved.
-//
+/*
+Program Description: Determines the two highest integer.
+Program Author: Erik Argueta
+Variable Inputs: number, largest1, largest2
+Process Flow: Sets variables the largest and second largest by comparing them to the smallest integer.
+Variable Outputs: largest1, largest2
+*/
+
 //#include stdafx.h
 #include <iostream>
 #include <string>
