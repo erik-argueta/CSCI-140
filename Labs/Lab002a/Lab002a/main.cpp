@@ -44,7 +44,6 @@ int main() {
 			largest2 = largest1;
 		}
 		
-		cout << counter << ". ";
 		cin >> number;
 		counter++;
 		
@@ -54,8 +53,8 @@ int main() {
 		}
 	}
 	
-	cout << endl << "The first largest number is: " << largest1 << endl;
-	cout << "The second largest number is: " << largest2 << endl << endl;
+	cout << "\nThe first largest number is: " << largest1;
+	cout << "\nThe second largest number is: " << largest2 << endl << endl;
 	
 	//system("pause")
 	return 0;
