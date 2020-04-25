@@ -29,5 +29,6 @@ void printArray(const array<array<int, columns>, rows>& a) {
 		}
 		
 		cout << endl; // start a new line of output
+	
 	}
 }
