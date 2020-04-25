@@ -22,7 +22,9 @@ public:
 		
 	};
 	
+	void setTotalSales();
 	
+	int getTotalSales() const;
 	
 	
 	

@@ -36,46 +36,44 @@
 #include <string>
 using namespace std;
 
-const size_t columns{10};
-const size_t rows{14};
-void printArray(const array<array<int, columns>, rows>&);
+const size_t header {10};
+const size_t sales_made{8};
 
-int main()
-{
-	// name, product, sales
-	{
-		string salesperson_name;
-		int product_number;
-		int product_sold;
-		
-		cout << "Hello!\n";
-		cout << "Please enter your name: ";
-		cin >> salesperson_name;
-		
-		cout << "Please enter the Product Number you sold: ";
-		cin >> product_number;
-		
-		cout << "Please enter the amount of Product " << product_number << " you sold:";
-		cin >> product_sold;
+void printXAxis();
+
+int main() {
+	
+	string name;
+	cout << "Please enter your name: ";
+	cin >> name;
+	
+	cout << "Please enter the sales you made: ";
+	
+	array<int, sales_made> sales_made;
+	
+	for (int& sale : sales_made) {
+		cin >> sale;
 	}
 	
-	array<array<int, columns>, rows> month_box{};
-	printArray(month_box);
+	printXAxis();
 	
+	cout << name << setw(11);
 	
-	
-	
+	for (int sales : sales_made) {
+		cout << sales << setw(10);
+	}
+	cout << endl;
 	
 	
 	return 0;
 }
 
-void printArray(const array<array<int, columns>, rows>& a) {
-	for (auto const& row : a) {
-		for (auto const& element : row) {
-			cout << element << ' ';
-		}
-		
-		cout << endl;
+void printXAxis() {
+	array<string, header> months {"Salesperson", "Sales 1", "Sales 2", "Sales 3", "Sales 4", "Sales 5", "Sales 6", "Sales 7", "Sales 8", "Total"};
+	
+	for (string month : months) {
+		cout << month << setw(10);
 	}
+	cout << "\nProduct\n";
+	cout << endl;
 }
