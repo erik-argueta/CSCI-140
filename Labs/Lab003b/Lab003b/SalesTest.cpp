@@ -34,46 +34,29 @@
 #include <iomanip>
 #include <array>
 #include <string>
+#include "Sales.h"
 using namespace std;
-
-const size_t header {10};
-const size_t sales_made{8};
 
 void printXAxis();
 
 int main() {
 	
-	string name;
-	cout << "Please enter your name: ";
-	cin >> name;
+	array<array<int, Sales::salesMade>, Sales::salesColumn> jerryProd1{
+		{1, 2, 3, 4, 5, 6, 7, 8}
+	};
+	array<array<int, Sales::salesMade>, Sales::salesColumn> jerryProd2{
+		{1, 2, 3, 4, 5, 6, 7, 8}
+	};
+	array<array<int, Sales::salesMade>, Sales::salesColumn> jerryProd3{
+		{1, 2, 3, 4, 5, 6, 7, 8}
+	};
 	
-	cout << "Please enter the sales you made: ";
 	
-	array<int, sales_made> sales_made;
-	
-	for (int& sale : sales_made) {
-		cin >> sale;
-	}
-	
-	printXAxis();
-	
-	cout << name << setw(11);
-	
-	for (int sales : sales_made) {
-		cout << sales << setw(10);
-	}
-	cout << endl;
-	
+	Sales person1 ("jerry", jerryProd1);
+	Sales person2 ("jerry", jerryProd2);
+	Sales person3 ("jerry", jerryProd3);
+
+	person1.processSales();
 	
 	return 0;
-}
-
-void printXAxis() {
-	array<string, header> months {"Salesperson", "Sales 1", "Sales 2", "Sales 3", "Sales 4", "Sales 5", "Sales 6", "Sales 7", "Sales 8", "Total"};
-	
-	for (string month : months) {
-		cout << month << setw(10);
-	}
-	cout << "\nProduct\n";
-	cout << endl;
 }

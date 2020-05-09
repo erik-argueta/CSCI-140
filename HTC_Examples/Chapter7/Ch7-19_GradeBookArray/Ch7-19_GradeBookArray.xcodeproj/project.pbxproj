@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ECC1706245047C4006FC19F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC1705245047C4006FC19F /* main.cpp */; };
+		5EAE7C672464B43D00738F6F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE7C662464B43D00738F6F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5ECC1700245047C4006FC19F /* CopyFiles */ = {
+		5EAE7C612464B43D00738F6F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5ECC1702245047C4006FC19F /* Ch7-19_GradeBookArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ch7-19_GradeBookArray"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ECC1705245047C4006FC19F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5ECC170C245047CF006FC19F /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
+		5EAE7C632464B43D00738F6F /* Ch7-19_GradeBookArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ch7-19_GradeBookArray"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAE7C662464B43D00738F6F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5EAE7C6D2464B45B00738F6F /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5ECC16FF245047C4006FC19F /* Frameworks */ = {
+		5EAE7C602464B43D00738F6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,27 +39,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5ECC16F9245047C4006FC19F = {
+		5EAE7C5A2464B43D00738F6F = {
 			isa = PBXGroup;
 			children = (
-				5ECC1704245047C4006FC19F /* Ch7-19_GradeBookArray */,
-				5ECC1703245047C4006FC19F /* Products */,
+				5EAE7C652464B43D00738F6F /* Ch7-19_GradeBookArray */,
+				5EAE7C642464B43D00738F6F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5ECC1703245047C4006FC19F /* Products */ = {
+		5EAE7C642464B43D00738F6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ECC1702245047C4006FC19F /* Ch7-19_GradeBookArray */,
+				5EAE7C632464B43D00738F6F /* Ch7-19_GradeBookArray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5ECC1704245047C4006FC19F /* Ch7-19_GradeBookArray */ = {
+		5EAE7C652464B43D00738F6F /* Ch7-19_GradeBookArray */ = {
 			isa = PBXGroup;
 			children = (
-				5ECC1705245047C4006FC19F /* main.cpp */,
-				5ECC170C245047CF006FC19F /* GradeBook.h */,
+				5EAE7C662464B43D00738F6F /* main.cpp */,
+				5EAE7C6D2464B45B00738F6F /* GradeBook.h */,
 			);
 			path = "Ch7-19_GradeBookArray";
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5ECC1701245047C4006FC19F /* Ch7-19_GradeBookArray */ = {
+		5EAE7C622464B43D00738F6F /* Ch7-19_GradeBookArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ECC1709245047C4006FC19F /* Build configuration list for PBXNativeTarget "Ch7-19_GradeBookArray" */;
+			buildConfigurationList = 5EAE7C6A2464B43D00738F6F /* Build configuration list for PBXNativeTarget "Ch7-19_GradeBookArray" */;
 			buildPhases = (
-				5ECC16FE245047C4006FC19F /* Sources */,
-				5ECC16FF245047C4006FC19F /* Frameworks */,
-				5ECC1700245047C4006FC19F /* CopyFiles */,
+				5EAE7C5F2464B43D00738F6F /* Sources */,
+				5EAE7C602464B43D00738F6F /* Frameworks */,
+				5EAE7C612464B43D00738F6F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -81,24 +81,24 @@
 			);
 			name = "Ch7-19_GradeBookArray";
 			productName = "Ch7-19_GradeBookArray";
-			productReference = 5ECC1702245047C4006FC19F /* Ch7-19_GradeBookArray */;
+			productReference = 5EAE7C632464B43D00738F6F /* Ch7-19_GradeBookArray */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5ECC16FA245047C4006FC19F /* Project object */ = {
+		5EAE7C5B2464B43D00738F6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Erik Argueta";
 				TargetAttributes = {
-					5ECC1701245047C4006FC19F = {
+					5EAE7C622464B43D00738F6F = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 5ECC16FD245047C4006FC19F /* Build configuration list for PBXProject "Ch7-19_GradeBookArray" */;
+			buildConfigurationList = 5EAE7C5E2464B43D00738F6F /* Build configuration list for PBXProject "Ch7-19_GradeBookArray" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,29 +106,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5ECC16F9245047C4006FC19F;
-			productRefGroup = 5ECC1703245047C4006FC19F /* Products */;
+			mainGroup = 5EAE7C5A2464B43D00738F6F;
+			productRefGroup = 5EAE7C642464B43D00738F6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ECC1701245047C4006FC19F /* Ch7-19_GradeBookArray */,
+				5EAE7C622464B43D00738F6F /* Ch7-19_GradeBookArray */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5ECC16FE245047C4006FC19F /* Sources */ = {
+		5EAE7C5F2464B43D00738F6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECC1706245047C4006FC19F /* main.cpp in Sources */,
+				5EAE7C672464B43D00738F6F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5ECC1707245047C4006FC19F /* Debug */ = {
+		5EAE7C682464B43D00738F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		5ECC1708245047C4006FC19F /* Release */ = {
+		5EAE7C692464B43D00738F6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +237,7 @@
 			};
 			name = Release;
 		};
-		5ECC170A245047C4006FC19F /* Debug */ = {
+		5EAE7C6B2464B43D00738F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		5ECC170B245047C4006FC19F /* Release */ = {
+		5EAE7C6C2464B43D00738F6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,25 +256,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ECC16FD245047C4006FC19F /* Build configuration list for PBXProject "Ch7-19_GradeBookArray" */ = {
+		5EAE7C5E2464B43D00738F6F /* Build configuration list for PBXProject "Ch7-19_GradeBookArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECC1707245047C4006FC19F /* Debug */,
-				5ECC1708245047C4006FC19F /* Release */,
+				5EAE7C682464B43D00738F6F /* Debug */,
+				5EAE7C692464B43D00738F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ECC1709245047C4006FC19F /* Build configuration list for PBXNativeTarget "Ch7-19_GradeBookArray" */ = {
+		5EAE7C6A2464B43D00738F6F /* Build configuration list for PBXNativeTarget "Ch7-19_GradeBookArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECC170A245047C4006FC19F /* Debug */,
-				5ECC170B245047C4006FC19F /* Release */,
+				5EAE7C6B2464B43D00738F6F /* Debug */,
+				5EAE7C6C2464B43D00738F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5ECC16FA245047C4006FC19F /* Project object */;
+	rootObject = 5EAE7C5B2464B43D00738F6F /* Project object */;
 }

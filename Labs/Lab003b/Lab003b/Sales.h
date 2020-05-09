@@ -5,31 +5,46 @@
 //  Created by Erik Argueta on 4/24/20.
 //  Copyright © 2020 Erik Argueta. All rights reserved.
 //
-
-#ifndef Sales_hpp
-#define Sales_hpp
-
-#include <stdio.h>
 #include <string>
 #include <array>
+#include <iostream>
+#include <iomanip>
 
 class Sales
 {
 public:
+
+	// constants
+	static const size_t salesColumn{12};
+	static const size_t salesMade{3};
+
 	// Sales constructor with two parameters
-	Sales(std::string& salesperson_name, int& product_number, int& product_sold) : name{salesperson_name}
-	{
+	Sales(const std::string& name, std::array<std::array<int, salesMade>, salesColumn>& salesArray) {
+	}
+	
+	void processSales() {
+		outputSales();
+	}
+
+	// Ouput contents of the table
+	void outputSales() const {
+		std::cout << std::setw(125) << "May's Sales\n";
+		std::cout << "			"; // alligning column heads (Tab 1)
+
+		// create a column heading for each sale
+		for (size_t sales{0}; sales < salesColumn; ++sales) {
+			std::cout << "Sale " << sales + 1 << "		"; // two TABS
+		}
 		
-	};
+		std::cout << "Total" << std::endl;
+		
+		
+		
+	}
 	
-	void setTotalSales();
-	
-	int getTotalSales() const;
-	
-	
+
+
 	
 private:
-	std::string name; // name of the salesperson
+	std::array<std::array<int, salesMade>, salesColumn> table; // 2d array
 };
-
-#endif /* Sales_hpp */
