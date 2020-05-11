@@ -17,7 +17,7 @@ int main() {
 	
 	cout << "\nValues in array2 by row are:" << endl;
 	printArray(array2);
-}
+	}
 
 // output array with two rows and three columns
 void printArray(const array<array<int, columns>, rows>& a) {
