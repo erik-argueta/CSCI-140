@@ -1,0 +1,46 @@
+//
+//  main.cpp
+//  Ch8-17_SubscriptingPointers
+//
+//  Created by Erik Argueta on 5/12/20.
+//  Copyright © 2020 Erik Argueta. All rights reserved.
+//
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int b[]{10, 20, 30, 40}; // create 4-element built-in array b
+	int* bPtr{b}; // set bPtr to point to built-in array b
+	
+	// output built-in array b using array subscript notation
+	cout << "Array b displayed with:\n\nArray subscript notation\n";
+	
+	for (size_t i{0}; i < 4; ++i) {
+		cout << "b[" << i << "] = " << b[i] << '\n';
+	}
+	
+	// output built-in array b using array name and pointer/offset notation
+	cout << "\nPointer/Offset notation where " << "the pointer is the array name\n";
+	
+	for (size_t offset1{0}; offset1 < 4; ++offset1) {
+		cout << "*(b + " << offset1 << ") = " << *(b + offset1) << '\n';
+	}
+	
+	// output built-in array b using bPtr and array subscript notation
+	cout << "\nPointer subscript notation\n";
+	
+	for (size_t j{0}; j < 4; ++j) {
+		cout << "bPtr[" << j << "] = " << bPtr[j] << '\n';
+	}
+	
+	cout << "\nPointer/Offset notation\n";
+	
+	// output built-in array b using bPtr and pointer/offset notation
+	for (size_t offset2{0}; offset2 < 4; ++offset2) {
+		cout << "*(bPTr + " << offset2 << ") = " << *(bPtr + offset2) << '\n';
+	}
+	
+	
+	return 0;
+}

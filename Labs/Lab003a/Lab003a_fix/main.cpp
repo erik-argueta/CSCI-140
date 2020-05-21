@@ -40,7 +40,7 @@ int main()
 		//cout << "Games Won: " << gamesWon << endl;
 		cout << "===================================================================================\n";
 		//cout << "Number: " << setNumber << endl;
-		//cout << "Round: " << rounds << endl;
+		cout << "Round: " << rounds << endl;
 		cout << "Guesses Left: " << guesses << endl;
 		cout << "===================================================================================\n\n";
 

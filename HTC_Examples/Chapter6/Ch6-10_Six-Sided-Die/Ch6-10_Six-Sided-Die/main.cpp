@@ -26,11 +26,13 @@ int main()
 		// pick random number from 1 to 6 and output it
 		cout << setw(10) << randomInt(engine);
 		
+		/*
 		// if counter is divisible by 5, start a new line of output
 		if (counter % 5 == 0)
 		{
 			cout << endl;
 		}
+		 */
 	}
 	
 	return 0;
