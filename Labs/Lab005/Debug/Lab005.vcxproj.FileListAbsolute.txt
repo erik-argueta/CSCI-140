@@ -1,0 +1,2 @@
+C:\Users\Josue\Documents\Github\CSCI-140\Labs\Lab005\Debug\Lab005.exe
+C:\Users\Josue\Documents\Github\CSCI-140\Labs\Lab005\Debug\Lab005.pdb
