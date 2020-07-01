@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-2_AimDerivedClasstoBaseClass\main.cpp(13,81): error C2440: 'initializing': cannot convert from 'CommissionEmployee *' to 'BasePlusCommissionEmployee *'
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-2_AimDerivedClasstoBaseClass\main.cpp(13,81): message : Reason: cannot convert from 'CommissionEmployee *' to 'BasePlusCommissionEmployee *'
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-2_AimDerivedClasstoBaseClass\main.cpp(13,61): message : Cast from base to derived requires dynamic_cast or static_cast

@@ -1,0 +1,2 @@
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-2_AimDerivedClasstoBaseClass\Debug\Ch12-2_AimDerivedClasstoBaseClass.exe
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-2_AimDerivedClasstoBaseClass\Debug\Ch12-2_AimDerivedClasstoBaseClass.pdb
