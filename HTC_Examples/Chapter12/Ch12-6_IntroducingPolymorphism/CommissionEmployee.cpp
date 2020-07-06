@@ -36,3 +36,46 @@ void CommissionEmployee::setSocialSecurityNumber(const string& ssn) {
 // return social Security Number
 string CommissionEmployee::getSocialSecurityNumber() const 
 { return socialSecurityNumber; }
+
+// set gross sales amount
+void CommissionEmployee::setGrossSales(double sales) {
+	if (sales < 0.0) {
+		throw invalid_argument("Gross rate must be > 0.0 and < 1.0");
+	}
+	
+	grossSales = sales;
+}
+
+// return gross sales amount
+double CommissionEmployee::getGrossSales() const { return grossSales; }
+
+// set commission rate
+void CommissionEmployee::setCommissionRate(double rate) {
+	if (rate <= 0.0 || rate >= 1.0) {
+		throw invalid_argument("Commission rate must be > 0.0 and < 1.0");
+	}
+	
+	commissionRate = rate;
+}
+
+// return commission rate
+double CommissionEmployee::getCommissionRate() const {
+	return commissionRate;
+}
+
+// calculate earnings
+double CommissionEmployee::earnings() const {
+	return getCommissionRate() * getGrossSales();
+}
+
+// return string representation of CommissionEmployee object
+string CommissionEmployee::toString() const {
+	ostringstream output;
+	output << fixed << setprecision(2); // two digits of precision
+	output << "commission employee: "
+	<< getFirstName() << ' ' << getLastName()
+	<< "\nsocial security number: " << getSocialSecurityNumber()
+	<< "\ngross sales: " << getGrossSales()
+	<< "\ncommission rate: " << getCommissionRate();
+	return output.str();
+}
