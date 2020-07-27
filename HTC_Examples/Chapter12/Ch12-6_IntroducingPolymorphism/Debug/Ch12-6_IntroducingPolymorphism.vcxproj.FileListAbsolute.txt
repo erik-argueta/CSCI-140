@@ -1,0 +1,2 @@
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-6_IntroducingPolymorphism\Debug\Ch12-6_IntroducingPolymorphism.exe
+C:\Users\Josue\Documents\Github\CSCI-140\HTC_Examples\Chapter12\Ch12-6_IntroducingPolymorphism\Debug\Ch12-6_IntroducingPolymorphism.pdb
