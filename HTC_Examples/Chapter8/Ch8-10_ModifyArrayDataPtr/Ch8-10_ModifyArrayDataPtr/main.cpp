@@ -18,5 +18,5 @@ int main() {
 
 // constant variable cannot be modified through xPtr
 void f(const int* xPtr) {
-	*xPtr = 100; // error: cannot modifuy a const object
+	*xPtr = 100; // error: cannot modify a const object
 }
